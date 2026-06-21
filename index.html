@@ -186,7 +186,7 @@ abstract.hide = function () {
             abstract.show = function () {
                 this._div.classList.remove("abstract");
                 this._div.classList.add("abstractUncollapsed");
-                this._div.innerHTML = 'Peripheral areas show high stream frequency in red/orange indicating dense stream occurrence, while central and eastern blue patches show low frequency indicating fewer streams per unit area.';
+                this._div.innerHTML = 'Blue areas have high Stream Frequency meaning a high density of streams per unit area with rapid surface runoff, while red areas have low Stream Frequency meaning fewer streams with more water infiltrating into the ground.';
         };
         abstract.addTo(map);
         var zoomControl = L.control.zoom({
